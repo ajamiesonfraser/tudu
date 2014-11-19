@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/bower_components/platform/platform.js"></script>
+    <link rel="import" href="/bower_components/polymer/polymer.html">
+    <link rel="import" href="/bower_components/core-item/core-item.html">
+    <link rel="import" href="/bower_components/core-icons/core-icons.html">
+    <link rel="import" href="/bower_components/core-scaffold/core-scaffold.html">
+    <link rel="import" href="/bower_components/core-menu/core-menu.html">
+    <link rel="import" href="/bower_components/google-map/google-map.html">
+    <style>
+        google-map {
+            display: block;
+            height: 600px;
+        }
+    </style>
+
+    <title></title>
+</head>
+    <body>
+        <core-scaffold>
+            <core-header-panel navigation flex mode="seamed">
+                <core-toolbar>Application</core-toolbar>
+            </core-header-panel>
+            <div tool>TUDU</div>
+            <div>
+                <google-map id="map" latitude="0" longitude="-60.194057"></google-map>
+            </div>
+        </core-scaffold>
+        <script>
+
+            function get_location(){
+               var located = window.navigator.geolocation.getCurrentPosition(show_map);
+                console.log("located",located);
+            }
+
+            function show_map(position){
+                var latitude = position.coords.latitude;
+                var longitude = position.coords.longitude;
+                var map = document.getElementById("map");
+                map.setAttribute("latitude",latitude);
+                map.setAttribute("longitude",longitude);
+
+
+            }
+            console.log(document);
+            get_location();
+        </script>
+    </body>
+</html>

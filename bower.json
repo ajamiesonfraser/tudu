@@ -1,0 +1,28 @@
+{
+  "name": "tudu-project",
+  "version": "0.0.0",
+  "authors": [
+    "A.J. Fraser <ajamiesonfraser@gmail.com>"
+  ],
+  "description": "tudu first",
+  "keywords": [
+    "tudu",
+    "with",
+    "polymer"
+  ],
+  "license": "MIT",
+  "homepage": "www.tudu.ca",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.5.1",
+    "platform": "~1.2.0",
+    "core-elements": "Polymer/core-elements#~0.5.1",
+    "paper-elements": "Polymer/paper-elements#~0.5.1"
+  }
+}
