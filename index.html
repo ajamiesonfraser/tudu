@@ -1,53 +1,129 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
+    <link type= "text/css" rel= "stylesheet" href="/styles/style.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/bower_components/platform/platform.js"></script>
     <link rel="import" href="/bower_components/polymer/polymer.html">
-    <link rel="import" href="/bower_components/core-item/core-item.html">
-    <link rel="import" href="/bower_components/core-icons/core-icons.html">
-    <link rel="import" href="/bower_components/core-scaffold/core-scaffold.html">
-    <link rel="import" href="/bower_components/core-menu/core-menu.html">
-    <link rel="import" href="/bower_components/google-map/google-map.html">
-    <style>
-        google-map {
-            display: block;
-            height: 600px;
+
+    <link rel="import" href="/bower_components/app-router/app-router.html">
+</head>
+<body vertical layout fullbleed>
+<head>
+    <title>core-scroll-header-panel</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <script src="/bower_components/webcomponentsjs/webcomponents.js"></script>
+
+
+    <style shim-shadowdom>
+
+        html, body {
+            height: 100%;
         }
+
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            color: #333;
+        }
+
+        core-scroll-header-panel {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: #eee;
+            height: 200px;
+        }
+
+        /* background for toolbar when it is at its full size */
+        core-scroll-header-panel::shadow #headerBg {
+            background-image: url(../styles/images/Paramore_Concert.jpg);
+        }
+
+        /* background for toolbar when it is condensed */
+        core-scroll-header-panel::shadow #condensedHeaderBg {
+            background-color: #f4b400;
+        }
+
+        core-toolbar {
+            color: #f1f1f1;
+            fill: #f1f1f1;
+            background-color: transparent;
+        }
+
+        .title {
+            -webkit-transform-origin: 0;
+            transform-origin: 0;
+            font-size: 40px;
+        }
+
+        .content {
+            padding: 8px;
+        }
+
     </style>
 
-    <title></title>
 </head>
-    <body>
-        <core-scaffold>
-            <core-header-panel navigation flex mode="seamed">
-                <core-toolbar>Application</core-toolbar>
-            </core-header-panel>
-            <div tool>TUDU</div>
-            <div>
-                <google-map id="map" latitude="0" longitude="-60.194057"></google-map>
-            </div>
-        </core-scaffold>
-        <script>
+<body unresolved>
+<div vertical layout>
 
-            function get_location(){
-               var located = window.navigator.geolocation.getCurrentPosition(show_map);
-                console.log("located",located);
-            }
+    <core-scroll-header-panel condenses vertical layout two>
 
-            function show_map(position){
-                var latitude = position.coords.latitude;
-                var longitude = position.coords.longitude;
-                var map = document.getElementById("map");
-                map.setAttribute("latitude",latitude);
-                map.setAttribute("longitude",longitude);
+        <core-toolbar class="tall">
+
+            <core-icon-button icon="arrow-back"></core-icon-button>
+            <div flex></div>
+            <paper-button id="logInButton">Login</paper-button>
+            <paper-button id="signUpButton">Signup</paper-button>
+            <div class="bottom indent title" font-family="">TUDU</div>
+
+        </core-toolbar>
+
+        <div class="content">
+
+            <sample-content size="100"></sample-content>
+
+        </div>
 
 
-            }
-            console.log(document);
-            get_location();
-        </script>
-    </body>
+    </core-scroll-header-panel>
+
+</div>
+<app-router>
+    <app-route path="/" import="/pages/home-page.html"></app-route>
+    <app-route path="*" import="/pages/not-found-page.html"></app-route>
+</app-router>
+
+<div id="containerDiv" style="height:500px; background-color: blue" vertical layout flex one>
+
+
+</div>
+<div id="contentDiv" style="clear:both; height:500px; background-color: red"></div>
+
+<script>
+
+    // custom transformation: scale header's title
+    var titleStyle = document.querySelector('.title').style;
+    addEventListener('core-header-transform', function(e) {
+        var d = e.detail;
+        var m = d.height - d.condensedHeight;
+        var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
+        titleStyle.transform = titleStyle.webkitTransform =
+                'scale(' + scale + ') translateZ(0)';
+    });
+
+</script>
+
+</body>
+
+</body>
 </html>
+
