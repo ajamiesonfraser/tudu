@@ -1,0 +1,13 @@
+<polymer-element name="tudu-app" noscript>
+        <template>
+            <app-router>
+                <app-route path="/" element="home-page"></app-route>
+            </app-router>
+        </template>
+</polymer-element>
+<script>
+    var router={};
+    document.addEventListener("polymer-ready",function(e){
+        router = document.querySelector("* /deep/ app-router");
+    })
+</script>

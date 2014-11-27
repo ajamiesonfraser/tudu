@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="map-box">
+    <google-map id="map" latitude="46.136338" longitude="-60.194057" zoom = "8"></google-map>
+</div>
+<script>
+
+    function get_location(){
+        var located = window.navigator.geolocation.getCurrentPosition(show_map);
+        console.log("located",located);
+    }
+
+    function show_map(position){
+        var latitude = position.coords.latitude;
+        var longitude = position.coords.longitude;
+        var map = document.getElementById("map");
+        map.setAttribute("latitude",latitude);
+        map.setAttribute("longitude",longitude);
+    }
+    console.log(document);
+    get_location();
+</script>
+
+</body>
+</html>
