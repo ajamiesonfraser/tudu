@@ -1,129 +1,154 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <link type= "text/css" rel= "stylesheet" href="/styles/style.css"/>
-    <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/bower_components/platform/platform.js"></script>
-    <link rel="import" href="/bower_components/polymer/polymer.html">
+    <head lang="en">
+        <link type= "text/css" rel= "stylesheet" href="/styles/style.css"/>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="/bower_components/platform/platform.js"></script>
+        <script src="/bower_components/webcomponentsjs/webcomponents.js"></script>
+        <link rel="import" href="/bower_components/polymer/polymer.html">
+        <link rel="import" href="/bower_components/app-router/src/app-router.html">
+        <link rel="import" href="/bower_components/core-media-query/core-media-query.html">
+        <link rel="import" href="tudu-app.html">
+        <link rel="import" href="/pages/app-layout.html">
+        <link rel="import" href="/pages/home-page.html">
+        <title>core-scroll-header-panel</title>
 
-    <link rel="import" href="/bower_components/app-router/app-router.html">
-</head>
-<body vertical layout fullbleed>
-<head>
-    <title>core-scroll-header-panel</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-
-    <script src="/bower_components/webcomponentsjs/webcomponents.js"></script>
-
-
-    <style shim-shadowdom>
-
-        html, body {
-            height: 100%;
-        }
-
-        body {
-            margin: 0;
-            font-family: sans-serif;
-            color: #333;
-        }
-
-        core-scroll-header-panel {
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            background-color: #eee;
-            height: 200px;
-        }
-
-        /* background for toolbar when it is at its full size */
-        core-scroll-header-panel::shadow #headerBg {
-            background-image: url(../styles/images/Paramore_Concert.jpg);
-        }
-
-        /* background for toolbar when it is condensed */
-        core-scroll-header-panel::shadow #condensedHeaderBg {
-            background-color: #f4b400;
-        }
-
-        core-toolbar {
-            color: #f1f1f1;
-            fill: #f1f1f1;
-            background-color: transparent;
-        }
-
-        .title {
-            -webkit-transform-origin: 0;
-            transform-origin: 0;
-            font-size: 40px;
-        }
-
-        .content {
-            padding: 8px;
-        }
-
-    </style>
-
-</head>
-<body unresolved>
-<div vertical layout>
-
-    <core-scroll-header-panel condenses vertical layout two>
-
-        <core-toolbar class="tall">
-
-            <core-icon-button icon="arrow-back"></core-icon-button>
-            <div flex></div>
-            <paper-button id="logInButton">Login</paper-button>
-            <paper-button id="signUpButton">Signup</paper-button>
-            <div class="bottom indent title" font-family="">TUDU</div>
-
-        </core-toolbar>
-
-        <div class="content">
-
-            <sample-content size="100"></sample-content>
-
-        </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
 
 
-    </core-scroll-header-panel>
+        <!--<style shim-shadowdom>
+            html, body {
+                height: 100%;
+            }
 
-</div>
-<app-router>
-    <app-route path="/" import="/pages/home-page.html"></app-route>
-    <app-route path="*" import="/pages/not-found-page.html"></app-route>
-</app-router>
+            body {
+                margin: 0;
+                font-family: helvetica;
+                color: white;
+            }
 
-<div id="containerDiv" style="height:500px; background-color: blue" vertical layout flex one>
+            core-scroll-header-panel {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-color: #ffffff;
+                height: 200px;
+            }
+
+            /* background for toolbar when it is at its full size */
+            core-scroll-header-panel::shadow #headerBg {
+                background-image: url(../styles/images/Paramore_Concert2.jpg);
+            }
+
+            /* background for toolbar when it is condensed */
+            core-scroll-header-panel::shadow #condensedHeaderBg {
+                background-color: #f4b400;
+            }
+
+            core-toolbar {
+                color: #f1f1f1;
+                fill: #f1f1f1;
+                background-color: transparent;
+            }
+
+            .title {
+                -webkit-transform-origin: 0;
+                transform-origin: 0;
+                font-size: 40px;
+            }
+
+            .content {
+                padding: 8px;
+            }
+
+        </style>-->
+
+        <!--<link rel="import" href="/bower_components/core-image/core-image.html">
+        <link rel="import" href="/bower_components/paper-dropdown/paper-dropdown.html">
+        <link rel="import" href="/bower_components/paper-dropdown-menu/paper-dropdown-menu.html">
+        <link rel="import" href="/bower_components/core-menu/core-menu.html">
+        <link rel="import" href="/bower_components/core-toolbar/core-toolbar.html">
+        <link rel="import" href="/bower_components/paper-item/paper-item.html">
+        <link rel="import" href="/bower_components/paper-button/paper-button.html">
+        <link rel="import" href="/bower_components/core-icon-button/core-icon-button.html">
+        <link rel="import" href="/bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
 
 
-</div>
-<div id="contentDiv" style="clear:both; height:500px; background-color: red"></div>
 
-<script>
+    </head>-->
 
-    // custom transformation: scale header's title
-    var titleStyle = document.querySelector('.title').style;
-    addEventListener('core-header-transform', function(e) {
-        var d = e.detail;
-        var m = d.height - d.condensedHeight;
-        var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
-        titleStyle.transform = titleStyle.webkitTransform =
-                'scale(' + scale + ') translateZ(0)';
-    });
 
-</script>
+        <body fullbleed layout vertical>
+           <!-- <div vertical layout>
 
-</body>
+                <core-scroll-header-panel keepCondensedHeader condenses vertical layout two>
 
-</body>
+                    <core-toolbar class="tall">
+
+                        <core-icon-button icon="arrow-back"></core-icon-button>
+                        <div flex></div>
+                        <paper-button id="logInButton">Login</paper-button>
+                        <paper-button id="signUpButton">Signup</paper-button>
+                        <div class="bottom indent title" font-family="">TUDU</div>
+
+
+                    </core-toolbar>
+                    <core-toolbar>
+                        <paper-dropdown-menu label="Your favorite pastry">
+                            <paper-dropdown class="dropdown">
+                                <core-menu class="menu">
+                                    <paper-item>Croissant</paper-item>
+                                    <paper-item>Donut</paper-item>
+                                    <paper-item>Financier</paper-item>
+                                    <paper-item>Madeleine</paper-item>
+                                </core-menu>
+                            </paper-dropdown>
+                        </paper-dropdown-menu>
+                    </core-toolbar>
+
+                    <core-media-query query="max-width: 100%"
+                                      queryMatches="{{phoneScreen}}"></core-media-query>
+
+                    <div flex layout horizontal?="{{!phoneScreen}}" class="content" style="color:white;">
+                        <div auto-vertical id="profileBox" style="color:white; border-width: 5px; border-color= black">
+                            <core-image style="width:200px; height:200px; background-color: lightgray;" sizing="contain" preload fade src="http://lorempixel.com/600/400">
+                            </core-image>
+                        </div>
+                        <div auto-vertical id="profileBox" style="color:white; border-width: 5px; border-color= black">Beta</div>
+                        <div auto-vertical id="profileBox" style="color:white; border-width: 5px; border-color= black">Gamma</div>
+
+                    </div>
+
+
+                </core-scroll-header-panel>
+
+            </div>-->
+            <!--<app-router>
+                <app-route path="/" element="home-page"></app-route>
+                <app-route path="/ev/:event" element="view-event"></app-route>
+                <app-route path="*" element="not-found-page"></app-route>
+            </app-router>-->
+           <tudu-app></tudu-app>
+
+
+           <!-- <script>
+
+                // custom transformation: scale header's title
+                var titleStyle = document.querySelector('.title').style;
+                addEventListener('core-header-transform', function(e) {
+                    var d = e.detail;
+                    var m = d.height - d.condensedHeight;
+                    var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
+                    titleStyle.transform = titleStyle.webkitTransform =
+                    'scale(' + scale + ') translateZ(0)';
+                });
+            </script>-->
+        </body>
 </html>
 
