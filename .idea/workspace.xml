@@ -27,9 +27,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="540">
-              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-              <folding />
+            <state vertical-scroll-proportion="-5.4" vertical-offset="120" max-vertical-offset="555">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <marker date="1417183266000" expanded="true" signature="21:1422" placeholder="..." />
+                <marker date="1417183266000" expanded="true" signature="42:1332" placeholder="..." />
+                <marker date="1417183266000" expanded="true" signature="1364:1414" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +43,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="315">
               <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding />
+              <folding>
+                <marker date="1417145567000" expanded="true" signature="41:463" placeholder="..." />
+                <marker date="1417145567000" expanded="true" signature="60:444" placeholder="..." />
+                <marker date="1417145567000" expanded="true" signature="85:424" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,10 +55,9 @@
       <file leaf-file-name="app-layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/pages/app-layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-48.125" vertical-offset="75" max-vertical-offset="1365">
-              <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
+            <state vertical-scroll-proportion="7.5" vertical-offset="990" max-vertical-offset="1650">
+              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding>
-                <element signature="n#style#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -70,19 +77,37 @@
       <file leaf-file-name="map-page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/pages/map-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3985849" vertical-offset="311" max-vertical-offset="900">
-              <caret line="32" column="126" selection-start-line="32" selection-start-column="126" selection-end-line="32" selection-end-column="126" />
-              <folding />
+            <state vertical-scroll-proportion="0.60453403" vertical-offset="600" max-vertical-offset="1740">
+              <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#1;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#2;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#3;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#4;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#5;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="googlestuff.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/googlestuff.html">
+      <file leaf-file-name="page-not-found.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pages/page-not-found.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.541667" vertical-offset="41" max-vertical-offset="525">
-              <caret line="26" column="9" selection-start-line="2" selection-start-column="0" selection-end-line="26" selection-end-column="9" />
-              <folding />
+            <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="525">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <marker date="1417182437000" expanded="true" signature="1757:1926" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +115,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="692" max-vertical-offset="1140">
-              <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="707" max-vertical-offset="1155">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,21 +125,26 @@
       <file leaf-file-name="home-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/pages/home-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1" vertical-offset="270" max-vertical-offset="1140">
-              <caret line="25" column="56" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="56" />
+            <state vertical-scroll-proportion="-5.1" vertical-offset="600" max-vertical-offset="1140">
+              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#1;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#2;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#1;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#2;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#0;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#1;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#div#2;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,15 +168,15 @@
         <option value="$PROJECT_DIR$/public/bower_components/core-scroll-header-panel/core-scroll-header-panel.html" />
         <option value="$PROJECT_DIR$/public/bower_components/core-scroll-header-panel/core-scroll-header-panel.css" />
         <option value="$PROJECT_DIR$/public/pages/tudu-app.html" />
-        <option value="$PROJECT_DIR$/public/pages/page-not-found.html" />
-        <option value="$PROJECT_DIR$/public/pages/app-layout.html" />
-        <option value="$PROJECT_DIR$/public/pages/home-page.html" />
         <option value="$PROJECT_DIR$/public/pages/profile-page.html" />
         <option value="$PROJECT_DIR$/public/pages/user-profile-page.html" />
         <option value="$PROJECT_DIR$/public/tudu-app.html" />
+        <option value="$PROJECT_DIR$/public/pages/gmap.html" />
+        <option value="$PROJECT_DIR$/public/pages/app-layout.html" />
+        <option value="$PROJECT_DIR$/public/pages/page-not-found.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/styles/style.css" />
-        <option value="$PROJECT_DIR$/public/pages/gmap.html" />
+        <option value="$PROJECT_DIR$/public/pages/home-page.html" />
         <option value="$PROJECT_DIR$/public/pages/map-page.html" />
       </list>
     </option>
@@ -155,8 +185,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="143" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1565" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -356,11 +387,11 @@
       <recent name="$PROJECT_DIR$/public/styles/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/styles/images" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/pages" />
       <recent name="$PROJECT_DIR$/public/styles" />
       <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -437,16 +468,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="800" extended-state="0" />
+    <frame x="143" y="23" width="1565" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32768363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32768363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32909605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2635659" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24222799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -503,7 +534,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1417183266000" expanded="true" signature="21:1422" placeholder="..." />
+            <marker date="1417183266000" expanded="true" signature="42:1332" placeholder="..." />
+            <marker date="1417183266000" expanded="true" signature="1364:1414" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -794,48 +829,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/page-not-found.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
-          <caret line="26" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/pages/user-profile-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="480">
           <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tudu-app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="315">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/home-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1" vertical-offset="270" max-vertical-offset="1140">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,38 +853,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/styles/images/tudulogo3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/page-not-found.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="540">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-          <folding />
+        <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="525">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <marker date="1417182437000" expanded="true" signature="1757:1926" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/app-layout.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-48.125" vertical-offset="75" max-vertical-offset="1365">
-          <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
+        <state vertical-scroll-proportion="-5.4" vertical-offset="120" max-vertical-offset="555">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <marker date="1417183266000" expanded="true" signature="21:1422" placeholder="..." />
+            <marker date="1417183266000" expanded="true" signature="42:1332" placeholder="..." />
+            <marker date="1417183266000" expanded="true" signature="1364:1414" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tudu-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="315">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <marker date="1417145567000" expanded="true" signature="41:463" placeholder="..." />
+            <marker date="1417145567000" expanded="true" signature="60:444" placeholder="..." />
+            <marker date="1417145567000" expanded="true" signature="85:424" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="692" max-vertical-offset="1140">
-          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="707" max-vertical-offset="1155">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/app-layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.5" vertical-offset="990" max-vertical-offset="1650">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/home-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.1" vertical-offset="600" max-vertical-offset="1140">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#1;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#2;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#1;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#2;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#0;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#1;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#2;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/pages/map-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3985849" vertical-offset="311" max-vertical-offset="900">
-          <caret line="32" column="126" selection-start-line="32" selection-start-column="126" selection-end-line="32" selection-end-column="126" />
-          <folding />
+        <state vertical-scroll-proportion="0.60453403" vertical-offset="600" max-vertical-offset="1740">
+          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#1;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#2;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#3;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#4;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#div#5;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

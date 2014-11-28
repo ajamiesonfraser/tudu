@@ -17,22 +17,67 @@
 <link rel="import" href="/bower_components/google-map/google-map.html">
 <link rel="import" href="/pages/app-layout.html">
 
+
 <link rel="import" href="/bower_components/google-map/google-map-search.html">
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css'>
 <!--script src="/bower_components/platform/platform.js"></script>-->
 <polymer-element name="map-page" noscript>
     <template>
         <app-layout>
+
             <style>
                 google-map {
                     display: block;
-                    height: 600px;
+                    height: 1000px;
+                    width: 100%;
                 }
+
+                .left {
+                    float: left;
+                    width: 50%;
+                    overflow:hidden;
+                }
+                .right {
+                    float: left;
+                    width: 50%;
+                }
+
             </style>
-            <google-map id="map" latitude="37.77493" longitude="-122.41942" fitToMarkers>
+
+            <div class="left">
+                <google-map id="map" latitude="37.77493" longitude="-122.41942" fitToMarkers>
                 <google-map-marker latitude="46.139670" longitude="-60.196015" draggable="true" title="Governor's Pub & Eatery"></google-map-marker>
                 <google-map-marker latitude="46.143348" longitude="-60.196361" draggable="true" title="New Dawn Centre for Social Innovation"></google-map-marker>
             </google-map>
+            </div>
+            <div class="right">
+                <div auto-vertical center-justified style="color:white; padding-top: 60px">
+                    <div flex layout horizontal center-justified class="profileBox" style="padding-bottom: 50px;">
+                        <core-image preload fade style="width:400px; height:400px;" sizing="contain" src="../styles/images/profile4.jpg">
+                        </core-image>
+                    </div>
+                    <div flex layout horizontal center-justified class="profileBox" style="padding-bottom: 50px;">
+                        <core-image preload fade style="width:400px; height:400px;" sizing="contain" src="../styles/images/profile5.jpg">
+                        </core-image>
+                    </div>
+                    <div flex layout horizontal center-justified class="profileBox" style="padding-bottom: 50px;">
+                        <core-image  preload fade style="width:400px; height:400px;" sizing="contain" src="../styles/images/profile6.jpg">
+                        </core-image>
+                    </div>
+                    <div flex layout horizontal center-justified class="profileBox" style="padding-bottom: 50px;">
+                        <core-image preload fade style="width:400px; height:400px;" sizing="contain" src="../styles/images/profile1.jpg">
+                        </core-image>
+                    </div>
+                    <div flex layout vertical center-justified class="profileBox" style="padding-bottom: 50px;">
+                        <core-image preload fade style="width:400px; height:400px;" sizing="contain" src="../styles/images/profile2.jpg">
+                        </core-image>
+                    </div>
+                    <div flex layout vertical center-justified class="profileBox" style="padding-bottom: 50px;">
+                        <core-image  preload fade style="width:400px; height:400px;" sizing="contain" src="../styles/images/profile3.jpg">
+                        </core-image>
+                    </div>
+                </div>
+            </div>
             <script>
 
                 function get_location(){
@@ -47,9 +92,20 @@
                     map.setAttribute("latitude",latitude);
                     map.setAttribute("longitude",longitude);
                 }
+                /*Polymer({
+
+                    getMapOptions: function() {
+                        var mapOptions = this.super();
+                        mapOptions["streetViewControl"] = false;
+                        return mapOptions;
+                    }
+
+                });*/
                 console.log(document);
                 get_location();
             </script>
+
+
         </app-layout>
     </template>
 </polymer-element>

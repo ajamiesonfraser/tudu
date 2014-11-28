@@ -5,8 +5,12 @@
 <link rel="import" href="/bower_components/core-toolbar/core-toolbar.html">
 <link rel="import" href="/bower_components/core-menu/core-menu.html">
 <link rel="import" href="/bower_components/core-icon-button/core-icon-button.html">
+<link rel="import" href="/bower_components/core-icon/core-icon.html">
+<link rel="import" href="/bower_components/core-dropdown/core-dropdown.html">
+<link rel="import" href="/bower_components/core-item/core-item.html">
 <link rel="import" href="/bower_components/paper-button/paper-button.html">
 <link rel="import" href="/bower_components/paper-item/paper-item.html">
+<link rel="import" href="/bower_components/paper-input/paper-input.html">
 <link rel="import" href="/bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
 
 <polymer-element name="app-layout" noscript>
@@ -59,26 +63,41 @@
             }
 
         </style>
-            <core-scroll-header-panel id="hPanel" keepCondensedHeader condenses style="height: 100%;">
+            <core-scroll-header-panel id="hPanel" keepCondensedHeader condenses style="height: 100%; font-family: helvetica">
                     <core-toolbar class="tall">
 
-                    <core-icon-button icon="arrow-back"></core-icon-button>
+                        <core-image style="width:250px; height:250px; margin-top: 40px" sizing="contain" src="../styles/images/tudulogo3.gif"></core-image>
                     <div flex></div>
                     <paper-button id="logInButton">Login</paper-button>
                     <paper-button id="signUpButton">Signup</paper-button>
-                    <div class="bottom indent title" font-family="">TUDU</div>
+
                 </core-toolbar>
                 <core-toolbar>
-                    <paper-dropdown-menu label="Your favorite pastry">
+                    <paper-input flex layout horizontal center-justified label="Where would you like to explore?"></paper-input>
+                    <paper-dropdown-menu flex layout horizontal center-justified label="What would you like to do?">
                         <paper-dropdown class="dropdown">
                             <core-menu class="menu">
-                                <paper-item>Croissant</paper-item>
-                                <paper-item onClick="router.go('/dog',{'replace':true})">Donut</paper-item>
-                                <paper-item>Financier</paper-item>
-                                <paper-item>Madeleine</paper-item>
+                                <paper-item>Music</paper-item>
+                                <paper-item onClick="router.go('/dog',{'replace':true})">Community</paper-item>
+                                <paper-item>Art</paper-item>
+                                <paper-item>Theatre</paper-item>
                             </core-menu>
                         </paper-dropdown>
                     </paper-dropdown-menu>
+                        <div flex layout horizontal center-justified relative>
+                            <core-icon id="trigger" icon="today"></core-icon>
+                            <core-dropdown relatedTarget="{{$.trigger}}">
+                                <core-menu>
+                                    <core-item>Monday</core-item>
+                                    <core-item>Tuesday</core-item>
+                                    <core-item>Wednesday</core-item>
+                                    <core-item>Thursday</core-item>
+                                    <core-item>Friday</core-item>
+                                    <core-item>Saturday</core-item>
+                                    <core-item>Sunday</core-item>
+                                </core-menu>
+                            </core-dropdown>
+                        </div>
                 </core-toolbar>
                 <div style="padding-top:64px" scrollTarget="{{$.hPanel.scroller}}"><content></content></div>
             </core-scroll-header-panel>
