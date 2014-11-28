@@ -27,28 +27,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2" vertical-offset="30" max-vertical-offset="510">
-              <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+            <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="540">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tudu-app.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tudu-app.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/tudu-app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14150943" vertical-offset="0" max-vertical-offset="424">
-              <caret line="4" column="93" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-profile-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/user-profile-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="480">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="315">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -57,7 +47,7 @@
       <file leaf-file-name="app-layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/pages/app-layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.041667" vertical-offset="941" max-vertical-offset="1365">
+            <state vertical-scroll-proportion="-48.125" vertical-offset="75" max-vertical-offset="1365">
               <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
@@ -67,21 +57,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paper-dropdown.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bower_components/paper-dropdown/paper-dropdown.html">
+      <file leaf-file-name="google-map-search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bower_components/google-map/google-map-search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.541667" vertical-offset="296" max-vertical-offset="1830">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state vertical-scroll-proportion="-21.875" vertical-offset="30" max-vertical-offset="1500">
+              <caret line="37" column="72" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paper-dropdown-menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bower_components/paper-dropdown-menu/paper-dropdown-menu.html">
+      <file leaf-file-name="map-page.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/pages/map-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375" vertical-offset="120" max-vertical-offset="2805">
-              <caret line="31" column="26" selection-start-line="22" selection-start-column="4" selection-end-line="31" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.3985849" vertical-offset="311" max-vertical-offset="900">
+              <caret line="32" column="126" selection-start-line="32" selection-start-column="126" selection-end-line="32" selection-end-column="126" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="googlestuff.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/googlestuff.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.541667" vertical-offset="41" max-vertical-offset="525">
+              <caret line="26" column="9" selection-start-line="2" selection-start-column="0" selection-end-line="26" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -90,8 +90,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="692" max-vertical-offset="1140">
+              <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -100,8 +100,8 @@
       <file leaf-file-name="home-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/pages/home-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.9" vertical-offset="0" max-vertical-offset="1140">
-              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+            <state vertical-scroll-proportion="-2.1" vertical-offset="270" max-vertical-offset="1140">
+              <caret line="25" column="56" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
@@ -116,26 +116,6 @@
                 <element signature="n#style#0;n#div#1;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-not-found.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/page-not-found.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
-              <caret line="26" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core-scroll-header-panel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.7" vertical-offset="360" max-vertical-offset="5325">
-              <caret line="43" column="11" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="37" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -161,11 +141,13 @@
         <option value="$PROJECT_DIR$/public/pages/page-not-found.html" />
         <option value="$PROJECT_DIR$/public/pages/app-layout.html" />
         <option value="$PROJECT_DIR$/public/pages/home-page.html" />
-        <option value="$PROJECT_DIR$/public/styles/style.css" />
         <option value="$PROJECT_DIR$/public/pages/profile-page.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/pages/user-profile-page.html" />
         <option value="$PROJECT_DIR$/public/tudu-app.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/styles/style.css" />
+        <option value="$PROJECT_DIR$/public/pages/gmap.html" />
+        <option value="$PROJECT_DIR$/public/pages/map-page.html" />
       </list>
     </option>
   </component>
@@ -326,6 +308,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="google-map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tudu-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tudu-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="core-scroll-header-panel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -343,6 +347,9 @@
     <property name="FullScreen" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="jsx.switch.disabled" value="true" />
+    <property name="options.lastSelected" value="dart.settings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -439,7 +446,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20577872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2635659" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -474,30 +481,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/bower_components/core-header-panel/core-header-panel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="4245">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="5325">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/googlestuff.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="525">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bower_components/paper-button/paper-button.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2144" max-vertical-offset="2790">
@@ -676,14 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/googlestuff.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="525">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bower_components/core-meta/core-meta.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2265">
@@ -731,14 +706,6 @@
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/google-map/google-map-search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="1500">
-          <caret line="37" column="72" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,14 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/pages/page-not-found.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
@@ -843,21 +802,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/app-layout.html">
+    <entry file="file://$PROJECT_DIR$/public/pages/user-profile-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.041667" vertical-offset="941" max-vertical-offset="1365">
-          <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="480">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tudu-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="315">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/pages/home-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.9" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        <state vertical-scroll-proportion="-2.1" vertical-offset="270" max-vertical-offset="1140">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
@@ -875,26 +839,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/googlestuff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.541667" vertical-offset="41" max-vertical-offset="525">
+          <caret line="26" column="9" selection-start-line="2" selection-start-column="0" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/google-map/google-map-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.875" vertical-offset="30" max-vertical-offset="1500">
+          <caret line="37" column="72" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2" vertical-offset="30" max-vertical-offset="510">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="540">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/pages/user-profile-page.html">
+    <entry file="file://$PROJECT_DIR$/public/pages/app-layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="480">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state vertical-scroll-proportion="-48.125" vertical-offset="75" max-vertical-offset="1365">
+          <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="692" max-vertical-offset="1140">
+          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/tudu-app.html">
+    <entry file="file://$PROJECT_DIR$/public/pages/map-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14150943" vertical-offset="0" max-vertical-offset="424">
-          <caret line="4" column="93" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
+        <state vertical-scroll-proportion="0.3985849" vertical-offset="311" max-vertical-offset="900">
+          <caret line="32" column="126" selection-start-line="32" selection-start-column="126" selection-end-line="32" selection-end-column="126" />
           <folding />
         </state>
       </provider>

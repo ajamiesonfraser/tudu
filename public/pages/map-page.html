@@ -1,0 +1,55 @@
+<link type= "text/css" rel= "stylesheet" href="/styles/style.css"/>
+<!--<link rel="import" href="/bower_components/polymer/polymer.html"/>-->
+<link rel="import" href="/bower_components/core-item/core-item.html"/>
+<link rel="import" href="/bower_components/core-menu/core-menu.html"/>
+<link rel="import" href="/bower_components/core-pages/core-pages.html"/>
+<link rel="import" href="/bower_components/core-toolbar/core-toolbar.html"/>
+<link rel="import" href="/bower_components/core-scaffold/core-scaffold.html"/>
+<link rel="import" href="/bower_components/core-input/core-input.html"/>
+<link rel="import" href="/bower_components/core-scroll-header-panel/core-scroll-header-panel.html"/>
+<link rel="import" href="/bower_components/paper-button/paper-button.html"/>
+<link rel="import" href="/bower_components/paper-ripple/paper-ripple.html">
+<link rel="import" href="/bower_components/paper-checkbox/paper-checkbox.html">
+<link rel="import" href="/bower_components/paper-input/paper-input.html">
+<link rel="import" href="/bower_components/paper-button/paper-button.html">
+<link rel="import" href="/bower_components/paper-input/paper-input-decorator.html">
+<link rel="import" href="/bower_components/core-image/core-image.html">
+<link rel="import" href="/bower_components/google-map/google-map.html">
+<link rel="import" href="/pages/app-layout.html">
+
+<link rel="import" href="/bower_components/google-map/google-map-search.html">
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css'>
+<!--script src="/bower_components/platform/platform.js"></script>-->
+<polymer-element name="map-page" noscript>
+    <template>
+        <app-layout>
+            <style>
+                google-map {
+                    display: block;
+                    height: 600px;
+                }
+            </style>
+            <google-map id="map" latitude="37.77493" longitude="-122.41942" fitToMarkers>
+                <google-map-marker latitude="46.139670" longitude="-60.196015" draggable="true" title="Governor's Pub & Eatery"></google-map-marker>
+                <google-map-marker latitude="46.143348" longitude="-60.196361" draggable="true" title="New Dawn Centre for Social Innovation"></google-map-marker>
+            </google-map>
+            <script>
+
+                function get_location(){
+                    var located = window.navigator.geolocation.getCurrentPosition(show_map);
+                    console.log("located",located);
+                }
+
+                function show_map(position){
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+                    var map = document.querySelector("* /deep/ google-map#map");
+                    map.setAttribute("latitude",latitude);
+                    map.setAttribute("longitude",longitude);
+                }
+                console.log(document);
+                get_location();
+            </script>
+        </app-layout>
+    </template>
+</polymer-element>
