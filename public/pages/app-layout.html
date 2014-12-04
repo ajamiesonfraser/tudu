@@ -6,7 +6,10 @@
 <link rel="import" href="/bower_components/core-menu/core-menu.html">
 <link rel="import" href="/bower_components/core-icon-button/core-icon-button.html">
 <link rel="import" href="/bower_components/core-icon/core-icon.html">
+<link rel="import" href="/bower_components/core-field/core-field.html">
 <link rel="import" href="/bower_components/core-dropdown/core-dropdown.html">
+<link rel="import" href="/bower_components/core-dropdown-menu/core-dropdown-menu.html">
+<link rel="import" href="/bower_components/core-selector/core-selector.html">
 <link rel="import" href="/bower_components/core-item/core-item.html">
 <link rel="import" href="/bower_components/paper-button/paper-button.html">
 <link rel="import" href="/bower_components/paper-item/paper-item.html">
@@ -63,7 +66,7 @@
             }
 
         </style>
-            <core-scroll-header-panel id="hPanel" keepCondensedHeader condenses style="height: 100%; font-family: helvetica">
+            <core-scroll-header-panel id="hPanel" keepCondensedHeader condenses noDissolve style="height: 100%; font-family: helvetica">
                     <core-toolbar class="tall">
 
                         <core-image style="width:250px; height:250px; margin-top: 40px" sizing="contain" src="../styles/images/tudulogo3.gif"></core-image>
@@ -73,33 +76,61 @@
 
                 </core-toolbar>
                 <core-toolbar>
-                    <paper-input flex layout horizontal center-justified label="Where would you like to explore?"></paper-input>
-                    <paper-dropdown-menu flex layout horizontal center-justified label="What would you like to do?">
-                        <paper-dropdown class="dropdown">
-                            <core-menu class="menu">
-                                <paper-item>Music</paper-item>
-                                <paper-item onClick="router.go('/dog',{'replace':true})">Community</paper-item>
-                                <paper-item>Art</paper-item>
-                                <paper-item>Theatre</paper-item>
-                            </core-menu>
-                        </paper-dropdown>
-                    </paper-dropdown-menu>
-                        <div flex layout horizontal center-justified relative>
-                            <core-icon id="trigger" icon="today"></core-icon>
-                            <core-dropdown relatedTarget="{{$.trigger}}">
-                                <core-menu>
-                                    <core-item>Monday</core-item>
-                                    <core-item>Tuesday</core-item>
-                                    <core-item>Wednesday</core-item>
-                                    <core-item>Thursday</core-item>
-                                    <core-item>Friday</core-item>
-                                    <core-item>Saturday</core-item>
-                                    <core-item>Sunday</core-item>
-                                </core-menu>
+                    <core-field flex layout horizontal center-justified style="border: 1px solid #ddd; padding-left:10px; margin-left: 300px; height: 40px; max-width: 380px; background-color: #ffffff" center>
+                        <input placeholder="Where would you like to explore?" flex>
+                    </core-field>
+                    <core-field flex layout horizontal center-justified style="border: 1px solid #ddd; padding-left:10px; margin-left: 10px; height: 40px; max-width: 300px; background-color: #ffffff" center>
+                        <core-dropdown-menu label="What would you like to do?" style="box-sizing: border-box;width: 170px;" flex layout horizontal center-justified>
+                            <core-dropdown class="dropdown" style="box-sizing: border-box;min-width: 170px;background-color: #ffffff;color: #000;border: 1px solid #ccc;border-radius: 3px;">
+                                <core-selector>
+                                    <core-item label="Music" style="padding-left: 10px"></core-item>
+                                    <core-item label="Art" style="padding-left: 10px"></core-item>
+                                    <core-item label="Theatre" style="padding-left: 10px"></core-item>
+                                    <core-item label="Sport" style="padding-left: 10px"></core-item>
+                                    <core-item label="Community" style="padding-left: 10px"></core-item>
+                                    <core-item label="Food" style="padding-left: 10px"></core-item>
+                                    <core-item label="Religious" style="padding-left: 10px"></core-item>
+                                    <core-item label="Lifestyle" style="padding-left: 10px"></core-item>
+                                    <core-item label="Literature" style="padding-left: 10px"></core-item>
+                                    <core-item label="Tech" style="padding-left: 10px"></core-item>
+                                    <core-item label="Craft" style="padding-left: 10px"></core-item>
+                                    <core-item label="Education" style="padding-left: 10px"></core-item>
+                                    <core-item label="Cultural" style="padding-left: 10px"></core-item>
+                                </core-selector>
                             </core-dropdown>
-                        </div>
+                        </core-dropdown-menu>
+                    </core-field>
+                    <core-field flex layout horizontal center-justified style="border: 1px solid #ddd; padding-left:10px; margin-left: 10px; height: 40px; max-width: 100px; background-color: #ffffff" center>
+                        <core-dropdown-menu label="When?" style="float:left; box-sizing: border-box;width: 100px;" flex layout horizontal center-justified>
+                            <core-dropdown class="dropdown" style="box-sizing: border-box;min-width: 170px;background-color: #ffffff;color: #000;border: 1px solid #ccc;border-radius: 3px;">
+                                <core-selector>
+                                    <core-item label="Croissant"></core-item>
+                                    <core-item label="Donut"></core-item>
+                                    <core-item label="Financier"></core-item>
+                                    <core-item label="Madeleine"></core-item>
+                                </core-selector>
+                            </core-dropdown>
+                        </core-dropdown-menu>
+                    </core-field>
                 </core-toolbar>
                 <div style="padding-top:64px" scrollTarget="{{$.hPanel.scroller}}"><content></content></div>
             </core-scroll-header-panel>
+        <!--<script>
+            console.log('app layout script');
+            var urls = ["../styles/images/Paramore_Concert2.jpg","../styles/images/drake-hotel.jpg","../styles/images/garrison.jpg"];
+            var urlsCount = urls.length;
+            var urlIdx =0;
+
+            var headerBg = document.querySelector('* /deep/ div#headerBg');//global search is bad
+
+            var cycleBg = function () {
+                if(urlsCount===urlIdx){urlIdx=0;}
+                console.log('cycleBg() called')
+                headerBg.style["background-image"]= "url("+urls[urlIdx]+");";
+                urlIdx=urlIdx+1;
+            };
+            setInterval(cycleBg(),1000);
+            console.log('test working?')
+        </script>-->
     </template>
 </polymer-element>

@@ -17,11 +17,42 @@
 <link rel="import" href="/pages/app-layout.html">
 
 <link rel="import" href="/bower_components/google-map/google-map-search.html">
+<link rel="import" href="/bower_components/google-map/google-map.html">
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css'>
 <!--script src="/bower_components/platform/platform.js"></script>-->
 <polymer-element name="user-profile-page" noscript>
     <template>
         <app-layout>
+
+            <div id="profileTitle" style="font-family: helvetica; font-size:40px; color: black; padding-left: 60px; padding-top: 60px">Governor's Pub and Eatery</div>
+
+            <div class="wrapperLeft" style="width: 50%; float: left">
+
+                <div flex layout horizontal style="color:white; padding-top: 20px; float: left; padding-left:60px; padding-right: 60px;">
+                <div flex layout horizontal center-justified class="profileBox" style="color:white; border-width: 5px; border-color: black;">
+                    <core-image preload fade style="width:600px; height:600px;" sizing="contain" src="../styles/images/governorsprofile.jpg">
+                    </core-image>
+                </div>
+                </div>
+                <div flex layout horizontal style="color:white; padding-top: 20px; float: left; padding-left:60px; padding-right: 60px;">
+                    <google-map style="width:600px; height:600px;" sizing="contain"></google-map>
+                </div>
+            </div>
+            <div class="wrapperRight" style="width: 50%; float: left">
+
+                <div flex layout horizontal style="color:white; padding-top: 20px; float: left; padding-left:60px; padding-right: 60px;">
+                    <div flex layout horizontal center-justified class="profileBox" style="color:white; border-width: 5px; border-color: black;">
+                        <core-image preload fade style="width:600px; height:600px;" sizing="contain" src="../styles/images/governorsprofile.jpg">
+                        </core-image>
+                    </div>
+                </div>
+                <div flex layout horizontal style="color:white; padding-top: 20px; float: left; padding-left:60px; padding-right: 60px;">
+                    <div style="width:600px; height:600px; border-color: black; border-width: medium; " >
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</div>
+                </div>
+            </div>
         </app-layout>
     </template>
 </polymer-element>
