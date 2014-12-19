@@ -11,9 +11,14 @@
 <link rel="import" href="/bower_components/core-dropdown-menu/core-dropdown-menu.html">
 <link rel="import" href="/bower_components/core-selector/core-selector.html">
 <link rel="import" href="/bower_components/core-item/core-item.html">
+<link rel="import" href="/bower_components/core-header-panel/core-header-panel.html">
 <link rel="import" href="/bower_components/paper-button/paper-button.html">
 <link rel="import" href="/bower_components/paper-item/paper-item.html">
 <link rel="import" href="/bower_components/paper-input/paper-input.html">
+<link rel="import" href="/bower_components/paper-dialog/paper-dialog.html">
+<link rel="import" href="/bower_components/paper-radio-button/paper-radio-button.html">
+<link rel="import" href="/bower_components/paper-radio-group/paper-radio-group.html">
+<link rel="import" href="/bower_components/paper-dialog/paper-action-dialog.html">
 <link rel="import" href="/bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
 
 <polymer-element name="app-layout" noscript>
@@ -67,13 +72,38 @@
 
         </style>
             <core-scroll-header-panel id="hPanel" keepCondensedHeader condenses noDissolve style="height: 100%; font-family: helvetica">
-                    <core-toolbar class="tall">
-
-                        <core-image style="width:250px; height:250px; margin-top: 40px" sizing="contain" src="../styles/images/tudulogo3.gif"></core-image>
+                <core-toolbar class="tall">
+                    <core-image style="width:250px; height:250px; margin-top: 40px" sizing="contain" src="../styles/images/tudulogo3.gif"></core-image>
                     <div flex></div>
-                    <paper-button id="logInButton">Login</paper-button>
-                    <paper-button id="signUpButton">Signup</paper-button>
+                    <paper-button id="logInButton" onClick="openDialog('loginDialog')">Login</paper-button>
+                    <paper-button id="signUpButton" onClick="openDialog('signUpDialog')">Signup</paper-button>
 
+                    <paper-action-dialog backdrop  id="loginDialog" style="width:700px;height:800px;">
+                        <div style="width: 50%; height: 30%; float: left; background-color: blue">
+                        </div>
+                        <paper-input label="label"></paper-input>
+                        <p>Would you like to log in?</p>
+                        <paper-button dismissive>dismissive</paper-button>
+                    </paper-action-dialog>
+
+                    <paper-action-dialog backdrop heading="Sign Up" id="signUpDialog" style="width:700px;height:800px;">
+                    </paper-action-dialog>
+
+                        <!--<template is="auto-binding">
+
+                            <section on-tap="{{toggleDialog1}}">
+
+                        <paper-button id="logInButton">Login</paper-button>
+                        <paper-button id="signUpButton">Signup
+
+                            <paper-action-dialog backdrop="" autoclosedisabled="" role="dialog" tabindex="-1" style="position: fixed; outline: none; display: none;">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                                    <paper-button affirmative="" autofocus="" role="button" tabindex="0">Tap me to close</paper-button>
+                    </paper-action-dialog>
+                    </paper-button>
+                    </section>
+                            </template>-->
                 </core-toolbar>
                 <core-toolbar>
                     <core-field flex layout horizontal center-justified style="border: 1px solid #ddd; padding-left:10px; margin-left: 300px; height: 40px; max-width: 380px; background-color: #ffffff" center>
@@ -115,7 +145,44 @@
                 </core-toolbar>
                 <div style="padding-top:64px" scrollTarget="{{$.hPanel.scroller}}"><content></content></div>
             </core-scroll-header-panel>
-        <!--<script>
+        <script>
+            /**
+             * @param {string} id
+             */
+
+            var openDialog = function(id){
+                var dialog = document.querySelector('* /deep/ paper-action-dialog#'+id);
+                dialog.open();
+            };
+        </script>
+
+<!--
+        <script>
+
+
+            var scope = document.querySelector('* /deep/ template[is=auto-binding]');
+            console.log(scope);
+            scope.toggleDialog1 = function(e) {
+                if (e.target.localName != 'paper-button') {
+                    return;
+                }
+                var d = e.target.querySelector('paper-dialog,paper-action-dialog');
+                if (!d) {
+                    return;
+                }
+                d.toggle();
+            };
+
+            scope.transitions = [
+                'core-transition-center',
+                'core-transition-top',
+                'core-transition-bottom',
+                'core-transition-left',
+                'core-transition-right'
+            ];
+
+        </script>
+        <script>
             console.log('app layout script');
             var urls = ["../styles/images/Paramore_Concert2.jpg","../styles/images/drake-hotel.jpg","../styles/images/garrison.jpg"];
             var urlsCount = urls.length;

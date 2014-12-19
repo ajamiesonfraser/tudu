@@ -32,6 +32,20 @@ app.get('/', function(req, res){
 /* looks for the style sheet */
 app.use("/style.css", express.static(__dirname + '/style.css'));
 
+var Sequelize = require('sequelize')
+    , sequelize = new Sequelize('tudu', 'ajfraser', '', {
+        dialect: "postgres", // or 'sqlite', 'postgres', 'mariadb'
+        port:    5432, // or 5432 (for postgres)
+    })
 
+sequelize
+    .authenticate()
+    .complete(function(err) {
+        if (!!err) {
+            console.log('Unable to connect to the database:', err)
+        } else {
+            console.log('Connection has been established successfully.')
+        }
+    })
 
 

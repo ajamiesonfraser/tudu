@@ -35,22 +35,24 @@
                 .left {
                     float: left;
                     width: 50%;
-                    overflow:hidden;
+                    position: fixed;
+                    margin-top: -130px;
                 }
                 .right {
                     float: left;
                     width: 50%;
+                    overflow: auto;
                 }
 
             </style>
 
-            <div class="left">
+            <div class="left" >
                 <google-map id="map" latitude="37.77493" longitude="-122.41942" fitToMarkers>
                 <google-map-marker latitude="46.139670" longitude="-60.196015" draggable="true" title="Governor's Pub & Eatery"></google-map-marker>
                 <google-map-marker latitude="46.143348" longitude="-60.196361" draggable="true" title="New Dawn Centre for Social Innovation"></google-map-marker>
             </google-map>
             </div>
-            <div class="right">
+            <div class="right" style="float: right">
                 <div auto-vertical center-justified style="color:white; padding-top: 60px">
                     <div flex layout horizontal center-justified class="profileBox" style="padding-bottom: 50px;">
                         <core-image preload fade style="width:400px; height:400px;" sizing="contain" src="../styles/images/profile4.jpg">

@@ -1,0 +1,102 @@
+<link type= "text/css" rel= "stylesheet" href="/styles/style.css"/>
+<!--<link rel="import" href="/bower_components/polymer/polymer.html"/>-->
+<link rel="import" href="/bower_components/core-item/core-item.html"/>
+<link rel="import" href="/bower_components/core-menu/core-menu.html"/>
+<link rel="import" href="/bower_components/core-pages/core-pages.html"/>
+<link rel="import" href="/bower_components/core-toolbar/core-toolbar.html"/>
+<link rel="import" href="/bower_components/core-scaffold/core-scaffold.html"/>
+<link rel="import" href="/bower_components/core-input/core-input.html"/>
+<link rel="import" href="/bower_components/core-scroll-header-panel/core-scroll-header-panel.html"/>
+<link rel="import" href="/bower_components/paper-button/paper-button.html"/>
+<link rel="import" href="/bower_components/paper-ripple/paper-ripple.html">
+<link rel="import" href="/bower_components/paper-checkbox/paper-checkbox.html">
+<link rel="import" href="/bower_components/paper-input/paper-input.html">
+<link rel="import" href="/bower_components/paper-button/paper-button.html">
+<link rel="import" href="/bower_components/paper-input/paper-input-decorator.html">
+<link rel="import" href="/bower_components/core-image/core-image.html">
+<link rel="import" href="/bower_components/google-map/google-map.html">
+<link rel="import" href="/pages/app-layout.html">
+
+
+<link rel="import" href="/bower_components/google-map/google-map-search.html">
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css'>
+
+<!--script src="/bower_components/platform/platform.js"></script>-->
+<polymer-element name="login-page" noscript>
+    <template>
+        <app-layout>
+            <link rel="import" href="bower_components/core-icons/core-icons.html">
+            <link rel="import" href="bower_components/core-overlay/core-overlay.html">
+            <link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
+            <link rel="import" href="bower_components/core-transition/core-transition.html">
+            <link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
+            <link rel="import" href="bower_components/paper-dialog/paper-dialog-transition.html">
+            <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+            <link rel="import" href="bower_components/paper-input/paper-input.html">
+            <link rel="import" href="bower_components/paper-toast/paper-toast.html">
+
+            <link rel="stylesheet" href="/styles/style.css"/>
+
+            <style shim-shadowdom>
+                /* Coloquei Junto com os inputs */
+                body {
+                    font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+                    margin: 0;
+                    padding: 24px;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    -webkit-tap-highlight-color: rgba(0,0,0,0);
+                    -webkit-touch-callout: none;
+                }
+
+            </style>
+
+
+            </head>
+            <body unresolved touch-action="auto">
+
+            <core-toolbar style="background-color: #f5f5f5">
+    <span flex>
+        <img src="/styles/images/leespalace.jpg"/>
+    </span>
+                <paper-button label="Login" class="colored" onclick="toggleDialog('paper-dialog-transition')"></paper-button>
+            </core-toolbar>
+
+            <paper-dialog heading="Login" transition="paper-dialog-transition" style="background-color: #efefef">
+                <div>
+                    <img src="/styles/images/drake-hotel.jpg" class="gym_logo"/>
+                    <img src="/styles/images/highlandarts.jpg" class="usr_logo"/>
+                </div>
+                <!--<paper-input floatingLabel label="Chave"></paper-input><br/>-->
+                <paper-input floatingLabel label="Usuário"></paper-input><br/>
+                <paper-input floatingLabel label="Senha"></paper-input><br/>
+
+                <paper-button label="Entrar" class="colored" affirmative default onclick="document.querySelector('#toast3').show();disparaLogado();"></paper-button>
+
+            </paper-dialog>
+
+            <paper-dialog heading="Login" transition="paper-dialog-transition" id="logado">
+
+                Logado!!!
+
+            </paper-dialog>
+
+            <paper-toast id="toast3" class="capsule" text="Acessando o sistema e validando dados..." style="padding-right: 60px;" duration="5000"></paper-toast>
+            <script>
+                function toggleDialog(transition) {
+                    var dialog = document.querySelector('paper-dialog[transition=' + transition + ']');
+                    dialog.toggle();
+                }
+                function disparaLogado() {
+                    selecionarModulos = window.setTimeout(function () {
+                        var logado = document.querySelector('paper-dialog#logado');
+                        logado.toggle();
+                    }, 5000);
+                }
+            </script>
+
+        </app-layout>
+    </template>
+</polymer-element>
