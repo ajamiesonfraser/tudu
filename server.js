@@ -46,6 +46,37 @@ sequelize
         } else {
             console.log('Connection has been established successfully.')
         }
-    })
+    });
+var userCount = 0;
 
-
+io.on('connection', function(socket) {
+    console.log("connect!");
+    userCount = userCount + 1;
+    socket.on('newUser', function (newUser) {
+            console.log("new user function");
+            console.log('newUser', newUser);
+            var user = sequelize.define('users', {
+                    userid: {type: Sequelize.INTEGER, autoIncrement: true, primaryKey: true},
+                    username: Sequelize.STRING,
+                    password: Sequelize.STRING,
+                    email: Sequelize.STRING
+                },
+                {
+                    timestamps: false
+                });
+            newUser.id = 0;
+            return sequelize.sync().then(function () {
+                return user.create(/*{
+                 title: title,
+                 description: description,
+                 content: content,
+                 user_id: 1
+                 }*/ newUser);
+            });
+        }
+    );
+    socket.on('disconnect', function () {
+        userCount = userCount - 1;
+        //console.log('a user disconnected','there are now',userCount,"users online");
+    });
+});

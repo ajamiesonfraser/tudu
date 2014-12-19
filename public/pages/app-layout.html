@@ -10,6 +10,7 @@
 <link rel="import" href="/bower_components/core-dropdown/core-dropdown.html">
 <link rel="import" href="/bower_components/core-dropdown-menu/core-dropdown-menu.html">
 <link rel="import" href="/bower_components/core-selector/core-selector.html">
+<link rel="import" href="/bower_components/core-pages/core-pages.html">
 <link rel="import" href="/bower_components/core-item/core-item.html">
 <link rel="import" href="/bower_components/core-header-panel/core-header-panel.html">
 <link rel="import" href="/bower_components/paper-button/paper-button.html">
@@ -20,7 +21,8 @@
 <link rel="import" href="/bower_components/paper-radio-group/paper-radio-group.html">
 <link rel="import" href="/bower_components/paper-dialog/paper-action-dialog.html">
 <link rel="import" href="/bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
-
+<script src="/socket.io/socket.io.js"></script>
+<app-route path="foo" element="/pages/user-profile-page.html"></app-route>
 <polymer-element name="app-layout" noscript>
     <template>
         <style shim-shadowdom>
@@ -73,20 +75,34 @@
         </style>
             <core-scroll-header-panel id="hPanel" keepCondensedHeader condenses noDissolve style="height: 100%; font-family: helvetica">
                 <core-toolbar class="tall">
-                    <core-image style="width:250px; height:250px; margin-top: 40px" sizing="contain" src="../styles/images/tudulogo3.gif"></core-image>
+                    <a href="http://localhost:5000"><core-image style="width:250px; height:250px; margin-top: 40px" sizing="contain" src="../styles/images/tudulogo3.gif" href="home-page.html">href="home-page.html"</core-image></a>
                     <div flex></div>
                     <paper-button id="logInButton" onClick="openDialog('loginDialog')">Login</paper-button>
                     <paper-button id="signUpButton" onClick="openDialog('signUpDialog')">Signup</paper-button>
 
-                    <paper-action-dialog backdrop  id="loginDialog" style="width:700px;height:800px;">
-                        <div style="width: 50%; height: 30%; float: left; background-color: blue">
-                        </div>
-                        <paper-input label="label"></paper-input>
-                        <p>Would you like to log in?</p>
-                        <paper-button dismissive>dismissive</paper-button>
+                    <paper-action-dialog backdrop  heading="TUDU" id="loginDialog" style="width:700px;height:800px;">
+                        <core-field flex layout horizontal center-justified style="border: 1px solid #ddd; padding-left:10px; margin-bottom: 20px; margin-top: 300px; margin-left: 120px; margin-right: 120px; height: 40px; max-width: 380px; background-color: #ffffff" center>
+                            <input placeholder="username" flex>
+                        </core-field>
+                        <core-field flex layout horizontal center-justified style="border: 1px solid #ddd; padding-left:10px; margin-bottom: 20px; margin-left: 120px; margin-right: 120px; height: 40px; max-width: 380px; background-color: #ffffff" center>
+                            <input placeholder="password" flex>
+                        </core-field>
+                        <a href="http://localhost:5000/#/user-profile-page" style="text-decoration: none"><paper-button affirmative flex horizontal center>log in</paper-button></a>
                     </paper-action-dialog>
 
-                    <paper-action-dialog backdrop heading="Sign Up" id="signUpDialog" style="width:700px;height:800px;">
+                    <paper-action-dialog backdrop heading="TUDU" id="signUpDialog" style="width:700px;height:800px;">
+                        <paper-button style="float: right">venue</paper-button>
+                        <paper-button style="float: right">user</paper-button>
+                                <core-field flex layout horizontal center-justified style="border: 1px solid #ddd; padding-left:10px; margin-bottom: 20px; margin-top: 200px; margin-left: 120px; margin-right: 120px; height: 40px; max-width: 380px; background-color: #ffffff" center>
+                                <input placeholder="username" flex id="signUpUser" value="" type="text">
+                                </core-field>
+                                <core-field flex layout horizontal center-justified style="border: 1px solid #ddd; padding-left:10px; margin-bottom: 20px; margin-left: 120px; margin-right: 120px; height: 40px; max-width: 380px; background-color: #ffffff" center>
+                                    <input placeholder="email" flex id="signUpEmail" value="" type="text">
+                                </core-field>
+                                <core-field flex layout horizontal center-justified style="border: 1px solid #ddd; padding-left:10px; margin-bottom: 20px; margin-left: 120px; margin-right: 120px; height: 40px; max-width: 380px; background-color: #ffffff" center>
+                                    <input placeholder="password" flex id="signUpPassword" value="" type="text">
+                                </core-field>
+                                <paper-button affirmative flex horizontal center onclick="javascript: signUp();">sign up</paper-button>
                     </paper-action-dialog>
 
                         <!--<template is="auto-binding">
@@ -130,74 +146,91 @@
                             </core-dropdown>
                         </core-dropdown-menu>
                     </core-field>
-                    <core-field flex layout horizontal center-justified style="border: 1px solid #ddd; padding-left:10px; margin-left: 10px; height: 40px; max-width: 100px; background-color: #ffffff" center>
-                        <core-dropdown-menu label="When?" style="float:left; box-sizing: border-box;width: 100px;" flex layout horizontal center-justified>
-                            <core-dropdown class="dropdown" style="box-sizing: border-box;min-width: 170px;background-color: #ffffff;color: #000;border: 1px solid #ccc;border-radius: 3px;">
-                                <core-selector>
-                                    <core-item label="Croissant"></core-item>
-                                    <core-item label="Donut"></core-item>
-                                    <core-item label="Financier"></core-item>
-                                    <core-item label="Madeleine"></core-item>
-                                </core-selector>
-                            </core-dropdown>
-                        </core-dropdown-menu>
-                    </core-field>
-                </core-toolbar>
-                <div style="padding-top:64px" scrollTarget="{{$.hPanel.scroller}}"><content></content></div>
-            </core-scroll-header-panel>
-        <script>
-            /**
-             * @param {string} id
-             */
+                    <input placeholder="Date" class="textbox-n" type="text" onfocus="(this.type='date')"  id="date" style="border: 1px solid #ddd; padding-left:10px; margin-left: 10px; height: 40px; max-width: 100px; background-color: #ffffff">
+                    <!-- <core-field flex layout horizontal center-justified style="border: 1px solid #ddd; padding-left:10px; margin-left: 10px; height: 40px; max-width: 100px; background-color: #ffffff" center>
+                         <core-dropdown-menu label="When?" style="float:left; box-sizing: border-box;width: 100px;" flex layout horizontal center-justified>
+                             <core-dropdown class="dropdown" style="box-sizing: border-box;min-width: 170px;background-color: #ffffff;color: #000;border: 1px solid #ccc;border-radius: 3px;">
+                                 <core-selector>
+                                     <core-item label="Croissant"></core-item>
+                                     <core-item label="Donut"></core-item>
+                                     <core-item label="Financier"></core-item>
+                                     <core-item label="Madeleine"></core-item>
+                                 </core-selector>
+                             </core-dropdown>
+                         </core-dropdown-menu>
+                     </core-field> -->
+                    <a href="http://localhost:5000/#/map-page" style="color:#ffffff"><core-icon-button icon="search" flex layout horizontal center-justified style="margin-left: 10px; width:40px;"></core-icon-button></a>
+                 </core-toolbar>
+                 <div style="padding-top:64px" scrollTarget="{{$.hPanel.scroller}}"><content></content></div>
+             </core-scroll-header-panel>
+         <script>
+             var socket= io();
 
-            var openDialog = function(id){
-                var dialog = document.querySelector('* /deep/ paper-action-dialog#'+id);
-                dialog.open();
-            };
-        </script>
+             /**
+              * @param {string} id
+              */
 
-<!--
-        <script>
+             var openDialog = function(id){
+                 var dialog = document.querySelector('* /deep/ paper-action-dialog#'+id);
+                 dialog.open();
+             };
+             function signUp(){
+                 console.log("sign up info");
+                 var userName = document.querySelector('* /deep/ input#signUpUser').value;
+                 var userEmail = document.querySelector('* /deep/ input#signUpEmail').value;
+                 var userPassword = document.querySelector('* /deep/ input#signUpPassword').value;
+                 var newUser = {
+                     username: userName,
+                     password: userPassword,
+                     email: userEmail
+                 };
+                 alert("before socket.emit");
+                 socket.emit('newUser',newUser);            return true;
+             }
+         </script>
+
+ <!--
+         <script>
 
 
-            var scope = document.querySelector('* /deep/ template[is=auto-binding]');
-            console.log(scope);
-            scope.toggleDialog1 = function(e) {
-                if (e.target.localName != 'paper-button') {
-                    return;
-                }
-                var d = e.target.querySelector('paper-dialog,paper-action-dialog');
-                if (!d) {
-                    return;
-                }
-                d.toggle();
-            };
+             var scope = document.querySelector('* /deep/ template[is=auto-binding]');
+             console.log(scope);
+             scope.toggleDialog1 = function(e) {
+                 if (e.target.localName != 'paper-button') {
+                     return;
+                 }
+                 var d = e.target.querySelector('paper-dialog,paper-action-dialog');
+                 if (!d) {
+                     return;
+                 }
+                 d.toggle();
+             };
 
-            scope.transitions = [
-                'core-transition-center',
-                'core-transition-top',
-                'core-transition-bottom',
-                'core-transition-left',
-                'core-transition-right'
-            ];
+             scope.transitions = [
+                 'core-transition-center',
+                 'core-transition-top',
+                 'core-transition-bottom',
+                 'core-transition-left',
+                 'core-transition-right'
+             ];
 
-        </script>
-        <script>
-            console.log('app layout script');
-            var urls = ["../styles/images/Paramore_Concert2.jpg","../styles/images/drake-hotel.jpg","../styles/images/garrison.jpg"];
-            var urlsCount = urls.length;
-            var urlIdx =0;
+         </script>
+         <script>
+             console.log('app layout script');
+             var urls = ["../styles/images/Paramore_Concert2.jpg","../styles/images/drake-hotel.jpg","../styles/images/garrison.jpg"];
+             var urlsCount = urls.length;
+             var urlIdx =0;
 
-            var headerBg = document.querySelector('* /deep/ div#headerBg');//global search is bad
+             var headerBg = document.querySelector('* /deep/ div#headerBg');//global search is bad
 
-            var cycleBg = function () {
-                if(urlsCount===urlIdx){urlIdx=0;}
-                console.log('cycleBg() called')
-                headerBg.style["background-image"]= "url("+urls[urlIdx]+");";
-                urlIdx=urlIdx+1;
-            };
-            setInterval(cycleBg(),1000);
-            console.log('test working?')
-        </script>-->
+             var cycleBg = function () {
+                 if(urlsCount===urlIdx){urlIdx=0;}
+                 console.log('cycleBg() called')
+                 headerBg.style["background-image"]= "url("+urls[urlIdx]+");";
+                 urlIdx=urlIdx+1;
+             };
+             setInterval(cycleBg(),1000);
+             console.log('test working?')
+         </script>-->
     </template>
 </polymer-element>

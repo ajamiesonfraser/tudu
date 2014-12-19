@@ -24,17 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app-layout.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app-layout.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/pages/app-layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="1140" max-vertical-offset="3120">
-              <caret line="88" column="120" selection-start-line="88" selection-start-column="120" selection-end-line="88" selection-end-column="120" />
+            <state vertical-scroll-proportion="0.7138315" vertical-offset="2251" max-vertical-offset="3615">
+              <caret line="180" column="83" selection-start-line="180" selection-start-column="83" selection-end-line="180" selection-end-column="83" />
               <folding>
                 <element signature="n#style#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#core-image#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-image#0;n#a#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#paper-action-dialog#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#paper-action-dialog#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-field#0;n#paper-action-dialog#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-field#1;n#paper-action-dialog#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#paper-action-dialog#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#paper-button#0;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#paper-button#1;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-field#0;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-field#1;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-field#2;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#core-field#0;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#core-field#1;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#core-dropdown-menu#0;n#core-field#1;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
@@ -52,11 +59,51 @@
                 <element signature="n#style#0;n#core-item#10;n#core-selector#0;n#core-dropdown#0;n#core-dropdown-menu#0;n#core-field#1;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#core-item#11;n#core-selector#0;n#core-dropdown#0;n#core-dropdown-menu#0;n#core-field#1;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#core-item#12;n#core-selector#0;n#core-dropdown#0;n#core-dropdown-menu#0;n#core-field#1;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#core-field#2;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#core-dropdown-menu#0;n#core-field#2;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#core-dropdown#0;n#core-dropdown-menu#0;n#core-field#2;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#core-icon-button#0;n#a#0;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/core-icon-button/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core-icon-button.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/core-icon-button/core-icon-button.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1305">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core-selector.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/core-selector/core-selector.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="8310">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core-pages.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/core-pages/core-pages.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="750">
+              <caret line="25" column="13" selection-start-line="20" selection-start-column="4" selection-end-line="25" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/createtables.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,17 +122,17 @@
         <entry file="file://$PROJECT_DIR$/populatetables.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-              <caret line="3" column="262" selection-start-line="3" selection-start-column="262" selection-end-line="3" selection-end-column="262" />
+              <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5900383" vertical-offset="262" max-vertical-offset="825">
-              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="617" max-vertical-offset="1290">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -96,7 +143,7 @@
       <file leaf-file-name="paper-dialog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/bower_components/paper-dialog/paper-dialog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="21.875" vertical-offset="525" max-vertical-offset="1605">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1605">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -108,61 +155,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-58.75" vertical-offset="0" max-vertical-offset="1650">
               <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="95" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bower_components/paper-input/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875" vertical-offset="1425" max-vertical-offset="3015">
-              <caret line="114" column="30" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bower_components/paper-dialog/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-160.625" vertical-offset="0" max-vertical-offset="4305">
-              <caret line="257" column="5" selection-start-line="257" selection-start-column="5" selection-end-line="257" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/map-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-61.875" vertical-offset="0" max-vertical-offset="1770">
-              <caret line="99" column="46" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="46" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#core-image#0;n#div#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#core-image#0;n#div#1;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#core-image#0;n#div#2;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#core-image#0;n#div#3;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#core-image#0;n#div#4;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#core-image#0;n#div#5;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-not-found.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pages/page-not-found.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="540">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -199,10 +191,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/pages/login-page.html" />
         <option value="$PROJECT_DIR$/public/pages/page-not-found.html" />
-        <option value="$PROJECT_DIR$/public/pages/app-layout.html" />
         <option value="$PROJECT_DIR$/createtables.sql" />
         <option value="$PROJECT_DIR$/populatetables.sql" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/public/pages/app-layout.html" />
       </list>
     </option>
   </component>
@@ -210,9 +202,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="165" />
     <option name="y" value="23" />
-    <option name="width" value="1841" />
-    <option name="height" value="874" />
+    <option name="width" value="1505" />
+    <option name="height" value="907" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -280,7 +273,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tudu-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tudu-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tudu-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tudu-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core-selector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tudu-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tudu-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core-pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tudu-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tudu-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core-icon-button" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,15 +451,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1841" height="874" extended-state="0" />
+    <frame x="165" y="23" width="1505" height="907" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2966752" sideWeight="0.49964765" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16441718" sideWeight="0.49964765" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15494506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19002695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -430,38 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/bower_components/core-scaffold/core-scaffold.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="3870">
-          <caret line="26" column="20" selection-start-line="16" selection-start-column="4" selection-end-line="26" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/core-pages/core-pages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/google-map/google-map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3210" max-vertical-offset="10290">
-          <caret line="230" column="72" selection-start-line="224" selection-start-column="3" selection-end-line="230" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/core-item/core-item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24940617" vertical-offset="255" max-vertical-offset="1185">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bower_components/paper-input/paper-autogrow-textarea.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2430">
@@ -738,9 +771,9 @@
         <state vertical-scroll-proportion="-16.875" vertical-offset="150" max-vertical-offset="1605">
           <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
           <folding>
-            <element signature="n#style#0;n#core-toolbar#0;n#body#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-dialog#0;n#body#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-toast#0;n#body#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-toolbar#0;n#body#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#paper-dialog#0;n#body#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#paper-toast#0;n#body#0;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -750,20 +783,20 @@
         <state vertical-scroll-proportion="-61.875" vertical-offset="0" max-vertical-offset="1770">
           <caret line="99" column="46" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="46" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#core-image#0;n#div#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#core-image#0;n#div#1;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#core-image#0;n#div#2;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#core-image#0;n#div#3;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#core-image#0;n#div#4;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#core-image#0;n#div#5;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#core-image#0;n#div#0;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#core-image#0;n#div#1;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#core-image#0;n#div#2;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#core-image#0;n#div#3;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#core-image#0;n#div#4;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#core-image#0;n#div#5;n#div#0;n#div#1;n#app-layout#0;n#template#0;n#polymer-element#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -810,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/bower_components/paper-dialog/paper-dialog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="21.875" vertical-offset="525" max-vertical-offset="1605">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1605">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -824,16 +857,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/core-selector/core-selector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8310">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/core-pages/core-pages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="750">
+          <caret line="25" column="13" selection-start-line="20" selection-start-column="4" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/core-icon-button/core-icon-button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createtables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/populatetables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/core-icon-button/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="617" max-vertical-offset="1290">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/pages/app-layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="1140" max-vertical-offset="3120">
-          <caret line="88" column="120" selection-start-line="88" selection-start-column="120" selection-end-line="88" selection-end-column="120" />
+        <state vertical-scroll-proportion="0.7138315" vertical-offset="2251" max-vertical-offset="3615">
+          <caret line="180" column="83" selection-start-line="180" selection-start-column="83" selection-end-line="180" selection-end-column="83" />
           <folding>
             <element signature="n#style#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#core-image#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-image#0;n#a#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#paper-action-dialog#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#paper-action-dialog#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-field#0;n#paper-action-dialog#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-field#1;n#paper-action-dialog#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#paper-action-dialog#0;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#paper-button#0;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#paper-button#1;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-field#0;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-field#1;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-field#2;n#paper-action-dialog#1;n#core-toolbar#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#core-field#0;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#core-field#1;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#core-dropdown-menu#0;n#core-field#1;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
@@ -851,36 +949,10 @@
             <element signature="n#style#0;n#core-item#10;n#core-selector#0;n#core-dropdown#0;n#core-dropdown-menu#0;n#core-field#1;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#core-item#11;n#core-selector#0;n#core-dropdown#0;n#core-dropdown-menu#0;n#core-field#1;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#core-item#12;n#core-selector#0;n#core-dropdown#0;n#core-dropdown-menu#0;n#core-field#1;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#core-field#2;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#core-dropdown-menu#0;n#core-field#2;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#core-dropdown#0;n#core-dropdown-menu#0;n#core-field#2;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#core-icon-button#0;n#a#0;n#core-toolbar#1;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#core-scroll-header-panel#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createtables.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/populatetables.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="3" column="262" selection-start-line="3" selection-start-column="262" selection-end-line="3" selection-end-column="262" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5900383" vertical-offset="262" max-vertical-offset="825">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
